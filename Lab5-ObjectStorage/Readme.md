@@ -89,5 +89,5 @@ b.	**Default Storage Tier:** Standard.
 
 ![imagen](../Lab5-ObjectStorage/Imagenes/bucket-11.png)
 
-**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 6 - Load Balancer](https://github.com/FeNRiSiTo/oci-FastTrackv2/blob/main/Lab6-LoadBalancer/Readme.md)**
+**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 6 - Load Balancer](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab6-LoadBalancer)**
    
