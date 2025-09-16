@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OCI Fast Track</title>
+  <style>
+    :root{
+      --brand:#f44336; --ink:#1f2937; --muted:#6b7280; --bg:#f9fafb; --card:#fff; --border:#e5e7eb;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    header{background:var(--brand);color:#fff;padding:2.2rem 1rem;text-align:center}
+    header h1{margin:0;font-size:2.4rem}
+    header p{margin:.5rem 0 0;font-size:1.1rem;opacity:.95}
+    main{max-width:1000px;margin:2rem auto;padding:0 1rem}
+    section{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1.25rem;margin:1rem 0}
+    h2{margin:.2rem 0 1rem;color:var(--brand)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+    a.card, .card-static{
+      display:block;padding:1rem;border:1px solid var(--border);border-radius:12px;background:#fff;text-decoration:none;color:inherit;
+      transition:box-shadow .2s ease, transform .05s
+    }
+    a.card:hover{box-shadow:0 10px 22px rgba(0,0,0,.08);transform:translateY(-1px)}
+    .note{border-left:6px solid var(--brand);background:#fff7f6;padding:1rem;border-radius:12px}
+    .note strong{color:#b91c1c}
+    ul{margin:.4rem 0 .6rem 1.1rem}
+    footer{margin:2rem 0 3rem;text-align:center;color:var(--muted);font-size:.95rem}
+    img{max-width:100%;border-radius:10px}
+    .kicker{color:#fff;opacity:.9;font-size:.95rem;margin-bottom:.25rem}
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">Workshop</p>
+    <h1>OCI Infrastructure FastTrack</h1>
+    <p>Laboratorios prácticos para aprender Oracle Cloud Infrastructure desde cero</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="sobre">
+      <h2 id="sobre">Sobre este Workshop</h2>
+      <p>
+        Oracle Cloud Infrastructure (OCI) Fast Track es un taller práctico diseñado para aquellos que desean
+        aprender a trabajar con la nube de Oracle desde cero. Durante este taller, cubriremos todos los conceptos
+        básicos relacionados con la infraestructura en la nube, y el resultado final será adquirir conocimientos
+        sobre equilibradores de carga, máquinas virtuales, almacenamiento y Bases de Datos Oracle Autonomous Database.
+        Exploraremos cada uno de los recursos disponibles en Infraestructura como Código (IaaS), desde redes y
+        almacenamiento hasta máquinas virtuales y equilibradores de carga. Para comenzar, es importante asegurarse de
+        que el usuario tenga una comprensión clara de los componentes básicos de OCI, como Regiones, Compartimentos y
+        Dominios de Disponibilidad.
+      </p>
+      <p>
+        Nuestro objetivo es que, al final de este taller, es que puedas implementar tus propias infraestructuras
+        siguiendo las mejores prácticas de OCI.
+      </p>
+      <p style="margin-top:1rem">Arquitectura objetivo:</p>
+      <img src="Imagenes/diagrama.png" alt="Arquitectura final en OCI">
+    </section>
+
+    <section aria-labelledby="objetivos">
+      <h2 id="objetivos">Objetivos de aprendizaje</h2>
+      <ul>
+        <li>Entender la estructura de OCI: regiones, dominios de disponibilidad y <strong>compartimentos</strong>.</li>
+        <li>Diseñar y desplegar redes con <strong>VCN</strong>, subnets, rutas, listas de seguridad/NACL.</li>
+        <li>Crear y administrar <strong>Compute</strong> (VMs) y <strong>Block Volume</strong>.</li>
+        <li>Trabajar con <strong>Object Storage</strong> y políticas de acceso.</li>
+        <li>Configurar <strong>Load Balancer</strong> para alta disponibilidad.</li>
+        <li>Provisionar y conectarse a <strong>Autonomous Database</strong>.</li>
+        <li>Aplicar principios de seguridad básica y organización por compartimentos.</li>
+      </ul>
+    </section>
+
+    <!-- Configuración del ambiente AHORA antes de Laboratorios -->
+    <section aria-labelledby="ambiente">
+      <h2 id="ambiente">Configuración del ambiente de laboratorio</h2>
+      <p>
+        Oracle Cloud, a través de su plataforma Live Labs, te ofrece la oportunidad de realizar este workshop en el entorno
+        que más te convenga: ya sea en un ambiente sandbox, preparado especialmente para practicar sin riesgos, o en tu propio
+        ambiente, aplicando directamente lo aprendido. Solo debes seleccionar la guía de configuración que mejor se ajuste a tus
+        necesidades, y así avanzar paso a paso de manera clara y guiada.
+      </p>
+
+      <div class="grid" style="margin-top:1rem">
+        <a class="card" href="PrimerosPasos/Readme.md">
+          <b>Configuración ambiente sandbox – LiveLab</b><br>
+          Guía paso a paso para usar el sandbox de LiveLabs.
+        </a>
+        <a class="card" href="PrimerosPasos-OwnEnvironment/Readme.md">
+          <b>Configuración en tu propio ambiente OCI</b><br>
+          Prepara tu tenancy y credenciales en OCI.
+        </a>
+      </div>
+
+      <div class="note" style="margin-top:1rem">
+        <strong>IMPORTANTE:</strong>
+        Antes de empezar, recuerda revisar la sección de <em>Primeros Pasos</em>, ya sea que estés utilizando un ambiente propio o un ambiente sandbox de LiveLab.
+      </div>
+    </section>
+
+    <section aria-labelledby="labs">
+      <h2 id="labs">Laboratorios</h2>
+      <div class="grid">
+        <a class="card" href="Lab1-Compartimentos/Readme.md"><b>Lab 1</b><br>Compartimentos</a>
+        <a class="card" href="Lab2-VCN/Readme.md"><b>Lab 2</b><br>VCN</a>
+        <a class="card" href="Lab3-MaquinasVirtuales/Readme.md"><b>Lab 3</b><br>Máquinas Virtuales</a>
+        <a class="card" href="Lab4-BlockVolume/Readme.md"><b>Lab 4</b><br>Block Volume</a>
+        <a class="card" href="Lab5-ObjectStorage/Readme.md"><b>Lab 5</b><br>Object Storage</a>
+        <a class="card" href="Lab6-LoadBalancer/Readme.md"><b>Lab 6</b><br>Load Balancer</a>
+        <a class="card" href="Lab7-AutonomousDB/Readme.md"><b>Lab 7</b><br>Autonomous DB</a>
+        <a class="card" href="README.md"><b>Github Oficial</b></a>
+      </div>
+    </section>
+
+    <section aria-labelledby="certificacion">
+      <h2 id="certificacion">Certificación en OCI</h2>
+      <p>
+        Este Fast Track te prepara para iniciar tu camino en OCI y puedas avanzar con rutas de certificación oficiales de Oracle Cloud Infrastructure.
+        Recomendadas:
+      </p>
+      <ul>
+        <li><strong>OCI Foundations Associate</strong> — conceptos base de OCI.</li>
+        <li><strong>OCI Architect Associate</strong> — diseño de soluciones en OCI.</li>
+        <li><strong>OCI Architect Professional</strong> — arquitectura avanzada y mejores prácticas.</li>
+      </ul>
+      <p>
+        Consulta los detalles y prerequisitos en la página oficial de certificaciones de Oracle (búsqueda: “Oracle
+        Cloud Infrastructure Certification”).
+      </p>
+    </section>
+
+    <footer>
+      © OCI Fast Track · 2025
+    </footer>
+  </main>
+</body>
+</html>
