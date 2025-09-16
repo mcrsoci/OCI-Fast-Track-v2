@@ -19,7 +19,7 @@ Su Load Balancer tiene un backend definido para enrutar el tráfico entrante a s
 - **Certificados:** Si utiliza HTTPS o SSL para su *Listener*, debe asociar un certificado de servidor SSL (X.509) con su Load Balancer. Un certificado permite a Load Balancer finalizar la conexión y descifrar las solicitudes entrantes antes de pasarlas a los servidores back-end.
 - **Heath check o verificación de estado:** Una prueba para confirmar la disponibilidad de los servidores back-end. Una verificación de estado puede ser una solicitud o un intento de conexión. Según el intervalo de tiempo que especifique, Load Balancer aplica la política de comprobación de estado para supervisar continuamente los servidores back-end. Si un servidor no supera la verificación de estado, Load Balancer sacará temporalmente el servidor de su rotación. Si el servidor pasa posteriormente la verificación de estado, Load Balancer lo devuelve a la rotación.
 
-![imagen](../Lab6-LoadBalancer/Imagenes/Imagen1.png)
+![imagen](../Lab6-LoadBalancer/Imagenes/Imagen1-referencia.png)
 En este laboratorio aprenderá cómo trabajar con Load Balancer dentro de Oracle Cloud Infrastructure
 
 
