@@ -49,4 +49,4 @@ Oracle Cloud es el proveedor de nube más amplio e integrado del sector, con opc
    
    ![imagen](../PrimerosPasos-OwnEnviroment/Imagenes/inicio-05.png)
 
-**BRAVO!👏 Ahora ya estamos listos para empezar! Continuemos con el primer laboratorio 🤩👉 [Laboratorio 1](https://github.com/kapvar9/oci-FastTrack-infraestructura/tree/main/Lab1-Compartimentos)**
+**BRAVO!👏 Ahora ya estamos listos para empezar! Continuemos con el primer laboratorio 🤩👉 [Laboratorio 1](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab1-Compartimentos)**
