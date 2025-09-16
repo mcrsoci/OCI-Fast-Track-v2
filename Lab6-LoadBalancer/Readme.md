@@ -177,6 +177,6 @@ Una vez completado el proceso de creación, tendrás la siguiente información: 
 ![imagen](../Lab6-LoadBalancer/Imagenes/lb-18.png) <br>
 7. Utilice la IP privada del balanceador de carga en el navegador noVNC para ver que su aplicación se dirija a los 2 servidores con diferentes respuestas en el archivo **index.html.**
 
-**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 7 - Autonomous Database](https://github.com/FeNRiSiTo/oci-FastTrackv2/blob/main/Lab7-AutonomousDB/Readme.md)**
+**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 7 - Autonomous Database](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab7-AutonomousDB)**
 
    
