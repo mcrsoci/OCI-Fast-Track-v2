@@ -26,7 +26,7 @@ En esta sección, aprenderás como crear una Red Virtual en la nube (VCN) y sus 
    
     ![imagen](../Lab2-VCN/Imagenes/lab2-1.png)
 
-2. Seleccione el compartimiento creado en el [Laboratorio 1: Hablemos sobre los compartments](https://github.com/kapvar9/oci-FastTrack-infraestructura/tree/main/Lab1-Compartimentos#creando-un-compartment) "Compartimiento-Trial"
+2. Seleccione el compartimiento creado en el [Laboratorio 1: Hablemos sobre los compartments](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab1-Compartimentos#creando-un-compartment) "Compartimiento-Trial"
 
   ![imagen](../Lab2-VCN/Imagenes/vcn-crear-02.png)
    
@@ -103,4 +103,4 @@ Objetivos:
 
    ![imagen](../Lab2-VCN/Imagenes/lab2-4.png)
 
-**Super! Continuemos con el siguiente laboratorio 🥳👉 [Laboratorio 3 - Máquinas Virtuales](https://github.com/kapvar9/oci-FastTrack-infraestructura/blob/main/Lab3-MaquinasVirtuales/Readme.md)**
+**Super! Continuemos con el siguiente laboratorio 🥳👉 [Laboratorio 3 - Máquinas Virtuales](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab3-MaquinasVirtuales)**
