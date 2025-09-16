@@ -102,5 +102,5 @@ b.	**Attachment type:** ISCSI.<br>
 
 Ahora usted puede seguir con el siguiente Laboratorio 
 
-**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 5 - Object Storage](https://github.com/kapvar9/oci-FastTrack-infraestructura/blob/main/Lab5-ObjectStorage/Readme.md)**
+**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 5 - Object Storage](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab5-ObjectStorage)**
    
