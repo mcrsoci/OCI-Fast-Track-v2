@@ -84,7 +84,7 @@ Luego haga clic en el botón **“Crear compartimiento**
 
    ![imagen](../Lab1-Compartimentos/Imagenes/crear-comp-031.png)
 
-**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 2 - VCN](https://github.com/kapvar9/oci-FastTrack-infraestructura/blob/main/Lab2-VCN/Readme.md)**
+**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 2 - VCN](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab2-VCN)**
 
 ### Explorando un Compartment
 
@@ -122,4 +122,4 @@ Tras hacer clic en su compartimento, verá una instancia creada como se muestra 
 
    ![imagen](../Lab1-Compartimentos/Imagenes/lab1-7.png)
 
-**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 2 - VCN](https://github.com/kapvar9/oci-FastTrack-infraestructura/blob/main/Lab2-VCN/Readme.md)**
+**Super! Continuemos con el siguiente laboratorio 🤩👉 [Laboratorio 2 - VCN](https://github.com/mcrsoci/OCI-Fast-Track-v2/tree/main/Lab2-VCN)**
